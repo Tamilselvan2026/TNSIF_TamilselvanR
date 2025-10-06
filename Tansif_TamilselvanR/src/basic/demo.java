@@ -5,5 +5,6 @@ public class demo {
 		System.out.println("hello world");
 		int a=100;
 		System.out.println(a);
+		System.out.println("good morning");
 	}
 }
