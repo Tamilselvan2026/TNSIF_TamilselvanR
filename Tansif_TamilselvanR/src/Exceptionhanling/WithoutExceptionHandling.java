@@ -1,6 +1,8 @@
 package Exceptionhanling;
 
 public class WithoutExceptionHandling {
-	System.out.println("the program continues....");
+	public static void main(String[] arg) {
+	System.out.println("the programs continues");
 	int data=100/0;
+}
 }
