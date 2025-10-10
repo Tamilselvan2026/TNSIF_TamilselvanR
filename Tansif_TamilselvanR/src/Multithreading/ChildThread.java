@@ -10,7 +10,7 @@ public class ChildThread extends Thread {
 		this.msg = msg;
 	}
 
-	@Override
+	//@Override
 	public void run() {
 		for (int i = 1; i <= n; i++) {
 			try {
