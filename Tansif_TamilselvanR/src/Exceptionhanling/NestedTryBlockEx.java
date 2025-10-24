@@ -11,8 +11,8 @@ public class NestedTryBlockEx {
 	public static void main(String[] args) {
 		int x, y,z;
 		try {
-			x = Integer.parseInt(args[0]); // command line args
-			y = Integer.parseInt(args[1]);
+			x = Integer.parseInt(args[12]); // command line args
+			y = Integer.parseInt(args[22]);
 			try {
 				z=divide(x, y);
 			} catch (ArithmeticException ae) {

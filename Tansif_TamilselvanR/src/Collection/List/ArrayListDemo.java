@@ -77,17 +77,22 @@ package Collection.List;
 			System.out.println("--------------- Traversing a list ---------------");
 			Iterator<String> i = names.iterator();
 			while (i.hasNext()) {
+				
 				String nm = i.next();
 				System.out.println(nm);
 				if (nm.equals("Ankit"))
 					i.remove();
 			}
-		
+			System.out.println("========================="+li.previous());
+			System.out.println("========================="+li.next());
 			System.out.println("Name list is "+names);
 			System.out.println("--------------- Traversing a list in backward manner ---------------");
 			ListIterator<String> li=names.listIterator(names.size());
 			while(li.hasPrevious())
 			{
+				System.out.println("========================="+li.previous());
+				System.out.println("========================="+li.next());
+
 				String nm = li.previous();
 				System.out.println(nm);			
 			}

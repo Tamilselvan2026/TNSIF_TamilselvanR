@@ -7,7 +7,7 @@ public class ThreadDemo {
 
 		threadOne.start();
 		//threadOne.start(); // throws IllegalStateException
-		// threadOne.run(); // single threaded application 
+		threadOne.run(); // single threaded application 
 		threadTwo.start();
 
 		System.out.println("-----------------------End of Main--------------------------");
