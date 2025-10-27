@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Spliterator;
 
-public class Hashaet {
+public class Hashset {
 	static void addElements(HashSet<Integer> numberHashSet) {
 		numberHashSet.add(61);
 		numberHashSet.add(41);
